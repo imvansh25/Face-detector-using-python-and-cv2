@@ -1,4 +1,6 @@
 import cv2
+import numpy as np
+import pandas as pd
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 img = cv2.imread("news.jpg",1)
